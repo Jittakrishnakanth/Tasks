@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    background-color: hsl(330, 18%, 96%); 
+    font-family: 'Arial', sans-serif;
+    margin-left: 20px;
+    padding: 0;
+    
+}
+.card {
+    width:400px;
+    background-color: #fff;
+}
+.card-body {
+    padding: 2rem;
+}
+.btn-primary {
+    background-color:#ff416c; 
+    padding: 12px;
+    font-size: 16px;
+}
+.form-check-label {
+    color:#ff416c; 
+}
+.container {
+	background-color: #fff;
+	position: relative;
+	overflow: hidden;
+	width: 1500px;
+	height:650px;
+    
+}
+.myrightside {
+    position: relative;
+    background-color: #ff416c;
+    height:425px;
+    padding: 25px;
+    color:white;
+    font-size:12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    border-radius: 20px;
+}
