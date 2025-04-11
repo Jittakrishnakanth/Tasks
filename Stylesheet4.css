@@ -1,0 +1,21 @@
+body {
+    background-color: #000000;
+   
+}
+
+h1 {
+    color:#84c754;
+}
+h2,p{
+    color: #84c754;
+}
+h4{
+    border:1px solid wheat;
+    font-family: 'Courier New';
+    color: white;
+}
+h5{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid white;border: radius 10px;;
+}
