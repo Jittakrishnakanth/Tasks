@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Traffic Light</title>
+  <link rel="stylesheet" href="TrafficLight.css">
+</head>
+<body>
+
+  <div class="first"><h1>Traffic Light</h1></div>
+  <div class="container">
+    
+    <div class="buttons">
+      <button onclick="changeLight('red')">Stop</button>
+      <button onclick="changeLight('yellow')">Ready</button>
+      <button onclick="changeLight('green')">Go</button>
+    </div>
+
+    <div class="traffic-light">
+      <div id="red" class="light"></div>
+      <div id="yellow" class="light"></div>
+      <div id="green" class="light"></div>
+    </div>
+  </div>
+
+  <script src="TrafficLight.js"></script>
+</body>
+</html>
