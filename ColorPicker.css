@@ -1,0 +1,38 @@
+
+.body {
+  text-align: center;
+  font-family: Open Sans;
+}
+.p{
+  color: #f3eded;
+}
+.h1{
+  font-size: xx-large;
+}
+.container{
+  text-align: center;
+  margin-top: 150px;  
+}
+
+.color-button {
+  padding: 20px;
+  margin:1px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-weight: bold;
+  height: 70px;
+  
+}
+
+.color-display {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  margin: 15px auto;
+  display: inline-block;
+  border-radius: 10px;
+}
+.span{
+  color: #49aee9;
+}
