@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="Tip Calculator.css"/>
+</head>
+<body>
+  <div class="calculator-container">
+    <img src="https://res.cloudinary.com/dhpkv1tec/image/upload/v1684396660/natural%20places/tip-calculator-img_qoayqf.png" alt="Tip Calculator" class="calculator-img" />
+    <h1>Tip Calculator</h1>
+
+    <p id="errorMessage" class="error-message"></p>
+
+    <label><b class="man">BILL AMOUNT</b></label>
+    <input type="number" id="billAmount" placeholder="BILL AMOUNT" />
+    <label ><b class="girl">PERCENTAGE TIP</b></label>
+    <input type="number" id="percentageTip" placeholder="PERCENTAGE TIP" />
+    <label ><b class="tan">TIP AMOUNT</b></label>
+    <input type="text" id="tipAmount" placeholder="TIP AMOUNT" readonly />
+    <label ><b class="van">TOTAL</b></label>
+    <input type="text" id="totalAmount" placeholder="TOTAL" readonly />
+
+    <button id="calculateButton">CALCULATE</button>
+  </div>
+
+  <script src="Tip Calculator.js"></script>
+</body>
+</html>

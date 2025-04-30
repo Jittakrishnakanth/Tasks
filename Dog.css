@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .container {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .puppy {
+    width:500px;
+ 
+  }
+  
+  .like-button {
+    margin-top: 30px;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #cbd2d9;
+    color: #9aa5b1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 180px;
+  }
+button{
+    text-align: center;
+}
+  .like-icon {
+    font-size: 20px;
+    text-align: center;
+  }

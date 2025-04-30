@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sizing an Image</title>
+  <link rel="stylesheet" href="Sizing an Image.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sizing an Image</h1>
+    <p>Increase the width of an image by<br>clicking the plus button and decrease by<br> clicking the Minus button. For every<br> action, the image increases or decreases by 5px.</p>
+
+    <img id="dogImage" src="https://res.cloudinary.com/dhpkv1tec/image/upload/v1684396816/natural%20places/sizing-an-image-img_l7gqxo.png" alt="Dog" style="width: 200px;" />
+
+    <p class="image-width">Width: <span id="imageWidth">200</span>px</p>
+    <p class="warning-message" id="warningMessage"></p>
+
+    <div class="buttons">
+      <button id="decrementButton">-</button>
+      <span>5px</span>
+      <button id="incrementButton">+</button>
+    </div>
+  </div>
+
+  <script src="Sizing an Image.js"></script>
+</body>
+</html>

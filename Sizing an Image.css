@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+   
+  }
+  
+  img {
+    margin: 20px 0;
+    
+  }
+  
+  .image-width {
+    font-weight: bold;
+  }
+  
+  .warning-message {
+    color: red;
+    font-size: 14px;
+    height: 18px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 6px 12px;
+    margin: 0 5px;
+    
+  }
