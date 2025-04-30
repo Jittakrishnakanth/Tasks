@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+
+    color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  h1{
+    text-align: center;
+    color: white;
+  }
+  
+  .container {
+    background-color: #10264e;
+    padding: 20px;
+   margin: 40px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  .man{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 3px;
+    box-sizing: border-box;
+  }
+  
+  #applyButton {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-left:175px ;
+  
+  
+  }
+  
+  .custom-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-left: 80px;
+  }
